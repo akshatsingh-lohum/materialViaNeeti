@@ -40,7 +40,7 @@ AWS_REGION = os.environ.get("AWS_REGION", "ap-south-1")
 
 # Zoho API endpoints
 ZOHO_TOKEN_URL = "https://accounts.zoho.in/oauth/v2/token"
-ZOHO_CLIQ_FILES_URL = "https://cliq.zoho.in/api/v2/bots/{bot_name}/files"
+ZOHO_CLIQ_FILES_URL = "https://cliq.zoho.in/api/v2/bots/policychatbotv/files"
 
 
 # ============================================================================
