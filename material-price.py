@@ -128,6 +128,7 @@ def upload_file_to_zoho_cliq(
     Upload a file to Zoho Cliq via the bot API.
     """
     url = ZOHO_CLIQ_FILES_URL.format(bot_name=bot_name)
+    print(f"   🔗 Request URL: {url}")
 
     headers = {
         "Authorization": f"Zoho-oauthtoken {access_token}",
